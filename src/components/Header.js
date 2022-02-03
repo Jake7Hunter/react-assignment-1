@@ -1,8 +1,12 @@
 function Header() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Hello World!</h1>
+    <div className="header">
+      <header>
+        <nav>
+          <a href="#">Home</a> 
+          <a href="#">About</a> 
+          <a href="#">Contact</a> 
+        </nav>
       </header>
     </div>
   );
