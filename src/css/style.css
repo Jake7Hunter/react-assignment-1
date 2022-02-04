@@ -18,7 +18,18 @@ body{
   flex-grow: 1;
   padding: 1em;
 }
+.gallery{
+  display: flex;
+  align-items: space-between;
+  justify-content: center;
+  gap: 1em;
+}
+.gallery img{
+  width: 33%;
+  object-fit: cover;
+}
 .footer{
+  text-align: center;
   justify-self: flex-end;
   padding: 1em;
   color: white;

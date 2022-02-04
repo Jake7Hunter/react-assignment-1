@@ -1,12 +1,18 @@
 import React from 'react';
+import Image1 from '../img/elden-ring.jpeg';
+import Image2 from '../img/screenshot1.jpeg';
+import Image3 from '../img/screenshot2.jpeg';
+
 
 class Info extends React.Component {
   render() {
     return(
         <article className="middle">
-            <h2>Hello world</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, officia autem? Perspiciatis saepe aut dolore dolor, quisquam exercitationem debitis illum odit natus? Esse odio velit numquam neque aperiam libero in.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis atque, perferendis ipsum, in eius adipisci nihil cumque cum, ipsa porro sed voluptate vero. Voluptatem dolore perferendis esse, expedita reiciendis facilis?</p>
+            <div className="gallery">
+               <img src={Image1} alt="Elden Ring Cover" className="image1"></img>
+               <img src={Image2} alt="Elden ring Screenshot" className="image2"></img>
+               <img src={Image3} alt="Elden ring Screenshot 2" className="image2"></img>
+            </div>
         </article>
     )
   }
