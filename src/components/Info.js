@@ -3,29 +3,11 @@ import React from 'react';
 class Info extends React.Component {
   render() {
     return(
-      <article>
-      <h1>Intro</h1>
-
-      <p className='intro'>Hello, my name is Karam Fahad. Welcome to WDDM 121.</p>
-
-      <section id="about">
-        <h2>get in touch</h2>
-
-        <ul>
-          <li>
-            <a href="#">linkedin</a>
-          </li>
-
-          <li>
-            <a href="#">snapchat</a>
-          </li>
-
-          <li>
-            <a href="#">twitter</a>
-          </li>
-        </ul>
-      </section>
-    </article>
+        <article className="middle">
+            <h2>Hello world</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, officia autem? Perspiciatis saepe aut dolore dolor, quisquam exercitationem debitis illum odit natus? Esse odio velit numquam neque aperiam libero in.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis atque, perferendis ipsum, in eius adipisci nihil cumque cum, ipsa porro sed voluptate vero. Voluptatem dolore perferendis esse, expedita reiciendis facilis?</p>
+        </article>
     )
   }
 }
