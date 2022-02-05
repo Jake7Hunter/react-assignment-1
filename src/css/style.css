@@ -1,8 +1,7 @@
+/* Universal */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 /* font-family: 'Montserrat', sans-serif; */
-
 body{
-  background-color: lightgray;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   margin: 0;
@@ -12,11 +11,16 @@ body{
   display: flex;
   flex-direction: column;
 }
+
+/* Header */
 .header{
-  background-color: rgba(0, 0, 0, 0.747) ;
+  background-color: #353b33 ;
   color: white;
   padding: 2em;
-  justify-self: flex-start
+  justify-self: flex-start;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 nav{
   font-family: 'Montserrat', sans-serif;
@@ -31,18 +35,30 @@ a{
 a:visited{
   color: white;
 }
+
+/* About */
 .about{
+  margin-top: 5em;
   display: flex;
   flex-direction: row;
 }
 .about img{
   width: 100%
 }
+.aboutText{
+  width: 30%;
+  align-self: center;
+  text-align: left;
+}
 .middle{
   text-align: center;
   flex-grow: 1;
   padding: 1em;
+  border-bottom:.3rem #353b33 solid;
+
 }
+
+/* Gallery */
 .gallery{
   display: flex;
   align-items: space-between;
@@ -54,10 +70,19 @@ a:visited{
   width: 33%;
   object-fit: cover;
 }
+
+/* Footer */
 .footer{
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 2em;
   justify-self: flex-end;
   padding: 1em;
   color: white;
-  background-color: rgba(0, 0, 0, 0.747) ;
+  background-color: #353b33 ;
+}
+.footer a{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  align-self: center;
 }
