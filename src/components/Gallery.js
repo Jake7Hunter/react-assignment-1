@@ -5,7 +5,7 @@ import Image3 from '../img/screenshot2.jpeg';
 import Image4 from '../img/screenshot3.jpeg';
 
 
-class Info extends React.Component {
+class Gallery extends React.Component {
   render() {
     return(
         <article className="middle">
@@ -21,4 +21,4 @@ class Info extends React.Component {
   }
 }
 
-export default Info
+export default Gallery

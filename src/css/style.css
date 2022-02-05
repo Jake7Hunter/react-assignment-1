@@ -31,6 +31,13 @@ a{
 a:visited{
   color: white;
 }
+.about{
+  display: flex;
+  flex-direction: row;
+}
+.about img{
+  width: 100%
+}
 .middle{
   text-align: center;
   flex-grow: 1;
