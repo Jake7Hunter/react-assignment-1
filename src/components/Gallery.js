@@ -10,7 +10,7 @@ class Info extends React.Component {
     return(
         <article className="middle">
           <h2>Gallery</h2>
-            <div className="gallery">
+            <div className="gallery" id="gallery">
                <img src={Image1} alt="Elden Ring Cover" className="image1"></img>
                <img src={Image2} alt="Elden ring Screenshot" className="image2"></img>
                <img src={Image3} alt="Elden ring Screenshot 2" className="image3"></img>
